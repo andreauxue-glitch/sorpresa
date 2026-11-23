@@ -32,7 +32,7 @@ const DISC_TYPES: [Pal, Pal, number][] = [
   [WHITE, GOLD_CENTER, 13], [PINK, GOLD_CENTER, 8], [RED, DARK_CENTER, 6],
   [PURPLE, GOLD_CENTER, 7], [YELLOW, DARK_CENTER, 12], [ORANGE, DARK_CENTER, 9],
 ];
-const TULIP_COLORS = [RED, PINK, YELLOW];
+const TULIP_COLORS = [RED, PINK, YELLOW, ORANGE, WHITE, PURPLE];
 
 type V3 = [number, number, number];
 // x,y,z, nx,ny,nz, palette, tone, twoSided, override char
