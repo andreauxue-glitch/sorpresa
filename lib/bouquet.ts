@@ -3,8 +3,8 @@
 export const SPIN_SPEED = 0.6;
 export const TILT = 0.3;
 export const CAM_DIST = 4.0;
-export const MESSAGE = "for you ♥";
-export const HINT = "@alishsharma on tiktok!"; // set to "" to remove
+export const MESSAGE = "Advent Calender Day 18 ♥";
+export const HINT = ""; // set to "" to remove
 export const NUM_HEARTS = 18;
 
 type Pal = number[];
