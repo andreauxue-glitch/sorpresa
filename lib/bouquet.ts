@@ -76,7 +76,7 @@ export function buildScene(): Scene {
     heads.push([add(C, d, D * uni(0.92, 1.05)), norm(d)]);
   }
 
-  const tulipSlots = [3, 8];
+  const tulipSlots = Array.from({ length: N }, (_, i) => i);
   const flowers: Flower[] = [];
   let discI = 0;
   heads.forEach(([pos, axis], idx) => {
