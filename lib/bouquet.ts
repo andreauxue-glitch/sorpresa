@@ -1,11 +1,11 @@
 // Port of the terminal ASCII bouquet. Pure functions: buildScene() once, render() per frame -> HTML string.
 
-export const SPIN_SPEED = 0.6;
+export const SPIN_SPEED = 0.4;
 export const TILT = 0.3;
 export const CAM_DIST = 4.0;
 export const MESSAGE = "Advent Calendar Day 18 ♥";
 export const HINT = ""; // set to "" to remove
-export const NUM_HEARTS = 18;
+export const NUM_HEARTS = 180;
 
 type Pal = number[];
 const WHITE = [244, 248, 251, 254, 255, 231];
